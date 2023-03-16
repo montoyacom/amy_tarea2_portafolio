@@ -18,19 +18,31 @@
     <title>Document</title>
 </head>
 
-<body  style="background-color: rgb(22, 22, 22);" >
+<body style="background-color: rgb(22, 22, 22);">
+    <!--
+    ## Con esto se crean enlaces de navegación dentro de la misma página ##
+-->
+    <ul>
+        <a name="ancla"></a>
+        <li><a href="#ancla_al_1">1ro.</a></li>
+        <li><a href="#ancla_al_2">2ro.</a></li>
+    </ul>
+    <!--
+    #
+-->
 
-<ul>
-    <a name="ancla"></a>
-    <li><a href="#ancla_al_1">1ro.</a></li>
-    <li><a href="#ancla_al_2">2ro.</a></li>
-</ul>
+    <!--
+    ## workframes de Bootstrap ##
+
+        #Navegation
+-->
 
     <nav class="navbar navbar-expand-lg color1">
-        
+
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5ab19f85-6c25-4d8d-a4d5-9e8070c3164c/d7sd1ab-9411e123-5bb8-4077-aa51-4b93f3ce1ac6.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzVhYjE5Zjg1LTZjMjUtNGQ4ZC1hNGQ1LTllODA3MGMzMTY0Y1wvZDdzZDFhYi05NDExZTEyMy01YmI4LTQwNzctYWE1MS00YjkzZjNjZTFhYzYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.XfeAR2CNe8JsSU2zUfcwP-85QRz5SormCKnuA3CMtpQ"
-                height="30px" width="30px"></a>
+            <a class="navbar-brand" href="#"><img
+                    src="https://fondify-media.s3.amazonaws.com/organizations/logos/2018-08-20/picture_4OVmpwd.png"
+                    height="50px" width="50px"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -69,6 +81,46 @@
             </div>
         </div>
     </nav>
+    <!--
+        #Carousel
+-->
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://i.pinimg.com/originals/da/ac/ae/daacae01106f8169f1385eac669cec82.jpg" height="350px"
+                    class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://i.etsystatic.com/34466454/r/il/ee4fa5/4171374644/il_fullxfull.4171374644_sq3w.jpg"
+                    height="350px" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://static.vecteezy.com/system/resources/previews/001/861/941/original/abstract-neon-shapes-background-free-photo.jpg"
+                    height="350px" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!--
+    ## Para poder controlar el Grid/Malla ##
+  -->
     <div class="grid-content">
         <header class="header1">Header</header>
         <nav class="navegation">navbar</nav>
@@ -76,12 +128,20 @@
         <article class="main">Article</article>
         <footer class="footer1">Footer</footer>
     </div>
-    <div style="color: antiquewhite;" >
+    <!--
+    ## Para crear anclas##
+  -->
+    <div style="color: rgb(44, 44, 44); background-color: rgb(58, 58, 58); ">
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         <a name="ancla_al_1">Bottom</a>
-        <a href="#ancla">Regresar</a>  
+        <a href="#ancla">Regresar</a>
     </div>
-
+    <div style="color: antiquewhite; background-color: rgb(19, 8, 8);">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <a name="ancla_al_2">Bottom</a>
+        <a href="https://drive.google.com/file/d/1jBkhVj6tnAPNkE0w31F3fqRQb5O5r1rR/view?usp=sharing">CV Prueba</a>
+        <a href="#ancla">Regresar</a>
+    </div>
 
 </body>
 

@@ -46,7 +46,7 @@ html{
     display: grid;
     grid-template-areas: 
     "header1"
-    "navigation"
+    "navegation"
     "sidebar"
     "main"
     "footer1";
