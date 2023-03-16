@@ -7,6 +7,9 @@
     animation-duration: 3s;
     animation-delay: 1s;
     position: relative;
+    animation-direction: reverse; /**/
+    animation-timing-function: ease;
+    animation-iteration-count:infinite;
 }
 
 @keyframes animation_1 {
