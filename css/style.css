@@ -54,6 +54,7 @@ html{
 .color1{
     background-color: rgba(173, 82, 49, 0.849);
 }
+
 /*Tablet*/
 @media(min-width:600px){
     .grid-content{
