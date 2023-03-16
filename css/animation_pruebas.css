@@ -2,5 +2,17 @@
     width: 50px;
     height: 50px;
     border-radius: 25px;
-    background-color: beige;
+    background: beige;
+    animation-name: animation_1;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    position: relative;
+}
+
+@keyframes animation_1 {
+    0%{background: beige;left: 0px;top: 0px;}
+    25%{background: palevioletred;left: 91%;top: 0px;}
+    50%{background: goldenrod;left: 91%;top: 25px;}
+    75%{background: red;left: 0px;top: 25px;}
+    100%{background: beige;left: 0px;top: 0px;}
 }

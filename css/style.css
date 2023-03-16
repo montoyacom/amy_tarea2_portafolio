@@ -61,10 +61,10 @@ html{
         grid-template-columns: auto auto;
         grid-template-rows: auto auto auto auto;
         grid-template-areas: 
-        "header1 header1 header1"
-        "navegation navegation sidebar"
-        "main main main"
-        "footer1 footer1 footer1"
+        "header1 header1"
+        "navegation sidebar"
+        "main main"
+        "footer1 footer1"
         ;
     }
 }
