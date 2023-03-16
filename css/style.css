@@ -41,6 +41,10 @@ html{
     grid-area: footer1;
     background-color: rgb(130, 107, 184);
 }
+
+.box1{
+    background-color: rgb(139, 100, 107);
+}
 /*Telefono*/
 .grid-content{
     display: grid;

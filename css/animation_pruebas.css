@@ -7,15 +7,15 @@
     animation-duration: 3s;
     animation-delay: 1s;
     position: relative;
-    animation-direction: reverse; /**/
-    animation-timing-function: ease;
+    /*animation-direction: reverse;*/
+    animation-timing-function: linear;
     animation-iteration-count:infinite;
 }
 
 @keyframes animation_1 {
     0%{background: beige;left: 0px;top: 0px;}
-    25%{background: palevioletred;left: 91%;top: 0px;}
-    50%{background: goldenrod;left: 91%;top: 25px;}
-    75%{background: red;left: 0px;top: 25px;}
+    25%{background: palevioletred;left: 92%;top: 0px;}
+    /*50%{background: goldenrod;left: 92%;top: 25px;}*/
+    /*75%{background: red;left: 0px;top: 25px;}*/
     100%{background: beige;left: 0px;top: 0px;}
 }
