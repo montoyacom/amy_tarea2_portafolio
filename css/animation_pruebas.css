@@ -14,8 +14,8 @@
 
 @keyframes animation_1 {
     0%{background: beige;left: 0px;top: 0px;}
-    25%{background: palevioletred;left: 92%;top: 0px;}
+    50%{background: palevioletred;left: 92%;top: 0px;}
     /*50%{background: goldenrod;left: 92%;top: 25px;}*/
     /*75%{background: red;left: 0px;top: 25px;}*/
-    100%{background: beige;left: 0px;top: 0px;}
+    100%{background: rgb(136, 42, 42);left: 0px;top: 0px;}
 }
